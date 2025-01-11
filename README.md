@@ -2,10 +2,28 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository and run the development server:
 
 ```bash
+git clone https://github.com/jeean0668/nextjs-electron-ts.git  
+``` 
+# and then
+```bash
+cd nextjs-electron-ts  
+```
+# and then
+```bash
+npm install
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install electron --save-dev
+npm install concurrently wait-on --save-dev
+```
+# and then
+```bash
 npm run dev
+```
+
 # or
 yarn dev
 # or
